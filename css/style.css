@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑", Helvetica;
+}
+.head{
+    width: 1000px;
+    height: 50px;
+    background-color: #fcf8e3;
+    margin: auto;
+}
+.head #dqll{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+.head #dzll{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+.head span{
+    font-size: 25px;
+}
+.whole_container{
+    width: 1000px;
+    height: 680px;
+    background-color: #fcf8e3;
+    margin: auto;
+}
+.whole_container .main{
+    width: 980px;
+    height: 650px;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    position: absolute;
+    margin: 10px;
+}
+.whole_container .main .left_massage{
+    width: 31%;
+    height: 100%;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    margin-left: 0px;
+}
+.whole_container .main .right_test{
+    width: 67%;
+    height: 100%;
+    /*border: 1px solid #000000;*/
+    position: absolute;
+    margin-left: 320px;
+}
+.left_massage .left_massage_body{
+    width: 280px;
+    height: 88%;
+    border: 1px solid #8a8a8a;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 3px #4e4e4e;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+.left_massage_body .Img{
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    margin-left: 20px;
+}
+.left_massage_body .Img img{
+    position: absolute;
+    margin: 8px;
+}
+.left_massage_body .user{
+    margin-left: 20px;
+    margin-top: 150px;
+}
+.left_massage .user .time-info{
+    width: 230px;
+    height: 280px;
+    background-color: #ebccd1;
+    position: absolute;
+    margin-left: 10px;
+}
+.left_massage .user .time-info .time-count-pos{
+    /*position: absolute;*/
+    margin-top: 18px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: #ff3f3a;
+}
+.left_massage .user .time-info .topic-pos{
+    margin-top: 18px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: #ff3f3a;
+}
+.left_massage .user .wrong_num{
+    margin-top: 18px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: #ff3f3a;
+}
+.right_test h5{
+    margin-bottom: 6px;
+}
+.right_test span{
+    margin: 10px;
+}
+.right_test form table{
+    width: 600px;
+    height: 48px;
+    margin-left: 20px;
+    text-align: left;
+    position: absolute;
+    table-layout:fixed;
+    word-break:break-all;
+}
+.right_test form table .e{
+    width: 90px;
+}
+.right_test form table input{
+    position: relative;
+}
+.right_test form table .form-control{
+    margin-top: 20px;
+}
+.right_test .pos{
+    margin-top: 400px;
+    margin-left: 180px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/clock.js" charset="gbk"></script>
+</head>
+<body>
+<div class="head">
+    <span id="dqll">定期录入</span><span id="dzll">定制录入</span>
+</div>
+<div class="whole_container">
+    <div class="main">
+        <div class="left_massage">
+            <div class="left_massage_body">
+            <div class="Img">
+                <img src="img/1.png" height="120px">
+            </div>
+            <div class="user">
+                <h5>用户名：李先生</h5>
+                <br/>
+                <h5>编号：1024</h5>
+                <div class="time-info">
+                    <h5>剩余时间：</h5>
+                    <div class="time-count-pos">
+                        <span id="min">10</span>分<span id="s">00</span>秒
+                    </div>
+                    <h5>完成提数：</h5>
+                    <div class="topic-pos">
+                        <span id="ct">1</span>/<span>1000</span>
+                    </div>
+                    <h5>错题数：</h5>
+                    <div class="wrong_num">
+                        <span id="wr">00</span>题
+                    </div>
+                </div>
+            </div>
+            <div class="time"></div>
+            </div>
+        </div>
+        <div class="right_test">
+            <h5>第<span id="nub">1</span>题 >> 试题ID：123456</h5>
+            <h5>用户名：<span class="username arr"  id="username">庄元丰</span></h5>
+            <h5>金额：<span class="count arr"  id="money">9999</span></h5>
+            <h5>存期：<span class="stay_time arr"  id="savetime">2</span></h5>
+            <h5>开户日期：<span class="time arr"  id="saveday">20110203</span></h5>
+            <h5>地址：<span class="address arr"  id="address">哈哈哈哈哈</span></h5>
+            <form role="form" name='contractForm'>
+                <table border="0" id="arr_1">
+                    <tr>
+                        <td class="e"><span><strong>用户名:</strong></span></td>
+                        <td><input type="text" class="form-control arr_2" name="a" tabindex="1" id="_username"><br/></td>
+                    </tr>
+                    <tr>
+                        <td class="e"><span><strong>金额:</strong></span></td>
+                        <td><input type="text" class="form-control arr_2" name="a" tabindex="2" id="_money"><br/></td>
+                    </tr>
+                    <tr>
+                        <td class="e"><span><strong>存期：</strong></span></td>
+                        <td><input type="text" class="form-control arr_2" name="a" tabindex="3" id="_savetime"><br/></td>
+                    </tr>
+                    <tr>
+                        <td class="e"><span><strong>开户日期：</strong></span></td>
+                        <td><input type="text" class="form-control arr_2" name="a" tabindex="4" id="_saveday"/><br/></td>
+                    </tr>
+                    <tr>
+                        <td class="e"><span><strong>地址:</strong></span></td>
+                        <td><input type="text" class="form-control arr_2 tabs" name="a" tabindex="5" id="_address"/><br/></td>
+                    </tr>
+                </table>
+                <input type="button" name="jq-use" class="pos btn btn-danger" onclick="test();time();save();money();_getRandomString();count();change();Reset()" value="下一题">
+                <input type="submit" class=" pos btn btn-info" value="交卷">
+            </form>
+        </div>
+    </div>
+    <div class="foot">
+
+    </div>
+</div>
+</body>
+</html>
